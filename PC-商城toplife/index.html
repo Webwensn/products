@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TOPLIFE首页</title>
+    <!--aos-->
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--初始化样式-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+
+<body>
+    <!--头部header-->
+    <header>
+        <!--头部左边 登录/注册-->
+        <div id="h_login">
+            <img src="images/index/h_login.jpg" alt="">
+            <div class="login">
+                <a href="login.html">登录</a>
+                <span>/</span>
+                <a href="registered1.html">注册</a>
+            </div>
+        </div>
+
+        <!--头部中间logo部分-->
+        <div id="h_logo">
+            <h1>TOPLIFE</h1>
+            <a href="index.html"><img src="images/index/h_logo.jpg" alt=""></a>
+        </div>
+
+        <!--头部右侧搜索/购物车-->
+        <div id="h_search">
+            <a href="#" id="search"><img src="images/index/h_search.jpg"></a>
+            <a href="shop.html" id="h_shop"><img src="images/index/h_shop.jpg"></a>
+        </div>
+    </header>
+
+    <!--搜索#search按钮 弹出框-->
+    <article class="panel">
+        <div>
+            <img src="images/index/h_logo.jpg">
+            <div class="off"><span>X</span></div>
+            <form action="list.html">
+                <input type="text" placeholder="全站搜索" id="search_text">
+                <input type="image" src="images/index/h_search.jpg">
+            </form>
+        </div>
+    </article>
+
+    <!--购物车.h_shop 鼠标悬停后展示的块-->
+    <article class="h_shop">
+        <dl>
+            <dt><img src="images/index/h_shopingcart.png" alt=""></dt>
+            <dd>购物车中还没有商品，赶紧选购吧！</dd>
+        </dl>
+    </article>
+
+    <!--页脚 新客专享-->
+    <article id="last_footer">
+        <div>
+            <dl>
+                <dt>
+                    <p>新客专享</p>
+                    <p>COUPON</p>
+                </dt>
+                <dd>
+                    <p>¥1500</p>
+                </dd>
+                <div id="div1"></div>
+            </dl>
+            <p class="">
+                <span>
+                    <a href="">新客专享优惠券，首次登录即送¥1500优惠券</a>
+                    ▶</span>
+                <span class="off_footer">X</span>
+            </p>
+        </div>
+    </article>
+
+    <!--右侧固定————返回顶部-->
+    <article id="fixedTop">
+        <div></div>
+        <div>
+            <p><a href="">尊享移动端购物体验</a></p>
+        </div>
+        <div><a href="#top">&lt;</a></div>
+    </article>
+    <!--main-->
+    <main>
+        <!--轮播图-->
+        <section id="banner">
+            <a href="list.html"><img src="images/index/banner1.jpg" class="on" alt=""></a>
+            <a href="list.html"><img src="images/index/banner2.jpg" alt=""></a>
+            <a href="list.html"><img src="images/index/banner3.jpg" alt=""></a>
+            <a href="list.html"><img src="images/index/banner4.jpg" alt=""></a>
+            <a href="list.html"><img src="images/index/banner6.jpg" alt=""></a>
+
+            <ul>
+                <li class="on" aos="fade-up">
+                    <h3>TOPLIFE x KITON</h3>
+                    <p>意式匠心 名流首选</p>
+                    <span></span>
+                </li>
+                <li>
+                    <h3>TOPLIFE x MULBERRY</h3>
+                    <p>FW18全新上线</p>
+                    <span></span>
+                </li>
+                <li>
+                    <h3>TOPLIFE x CHA LING</h3>
+                    <p>茶灵魅惑唇膏全新上线</p>
+                    <span></span>
+                </li>
+                <li>
+                    <h3>TOPLIFE x PERRIN Paris</h3>
+                    <p>小众潮流最不容忽视的左岸风格所在</p>
+                    <span></span>
+                </li>
+                <li>
+                    <h3>TOPLIFE x Baccarat</h3>
+                    <p>水晶艺术世家 法式生活艺术</p>
+                    <span></span>
+                </li>
+            </ul>
+            <div id="arrows">
+                <div id="bleft">&lt;</div>
+                <div id="bright">&gt;</div>
+            </div>
+        </section>
+
+        <nav id="main_nav">
+            <ul id="navul" aos="fade-down">
+                <li><a href="">男士</a>
+                    <ol>
+                        <li>
+                            <h3><a href="list.html">MEN</a></h3>
+                        </li>
+                        <li><a href="list.html">男士服饰</a></li>
+                        <li><a href="list.html">男士鞋靴</a></li>
+                        <li><a href="list.html">男士包袋</a></li>
+                        <li><a href="list.html">男士配饰</a></li>
+                    </ol>
+                </li>
+
+                <li><span> / </span></li>
+
+                <li><a href="">女士</a>
+                    <ol>
+                        <li>
+                            <h3><a href="list.html">WOMEN</a></h3>
+                        </li>
+                        <li><a href="list.html">女士服饰</a></li>
+                        <li><a href="list.html">女士鞋靴</a></li>
+                        <li><a href="list.html">女士包袋</a></li>
+                        <li><a href="list.html">女士配饰</a></li>
+                    </ol>
+                </li>
+
+                <li><span> / </span></li>
+
+                <li><a href="">护肤美妆</a>
+                    <ol>
+                        <li>
+                            <h3><a href="list.html">BEAUTY</a></h3>
+                        </li>
+                        <li><a href="list.html">护肤美妆</a></li>
+                    </ol>
+                </li>
+
+                <li><span> / </span></li>
+
+                <li><a href="list.html">生活方式</a>
+                    <ol>
+                        <li>
+                            <h3><a href="list.html">LIFE</a></h3>
+                        </li>
+                        <li><a href="list.html">功能箱包</a></li>
+                        <li><a href="list.html">时尚生活</a></li>
+                    </ol>
+                </li>
+
+                <li><span> / </span></li>
+
+                <li><a href="">品牌</a>
+                    <ol class="nli">
+                        <li>
+                            <h3><a href="list.html">BRANDS</a></h3>
+                        </li>
+                    </ol>
+                </li>
+
+                <li><span> / </span></li>
+
+                <li><a href="">T课堂</a>
+                    <ol class="nli">
+                        <li>
+                            <h3><a href="list.html">T-CLASS</a></h3>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+        <section id="main-con">
+            <div id="new">
+                <h2>NEW<span>ARRIVAL</span></h2>
+                <h3>新品上市</h3>
+            </div>
+            <div id="newCon">
+                <ul>
+                    <li class="on">
+                        <dl class="dl1" aos="fade-up-left">
+                            <dt><a href="list.html"><img src="images/index/con-2.1.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>时光滋润套装(赠送小礼品+730元凝颜倍护精华霜)</p>
+                                    <p>爱诗黛菈（ASTARA）</p>
+                                    <p><span>￥</span>3,700</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl2" aos="fade-up-right">
+                            <dt><a href="list.html"><img src="images/index/con-2.2.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>女士金属感印花山羊皮Amberley小号学院包</p>
+                                    <p>Mulberry</p>
+                                    <p><span>￥</span>8,500</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl3" aos="fade-down-left">
+                            <dt><a href="list.html"><img src="images/index/con-2.3.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>男士小牛皮便鞋 蓝色</p>
+                                    <p>TOD'S</p>
+                                    <p><span>￥</span>4,600</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl4" aos="fade-down-right">
+                            <dt><a href="list.html"><img src="images/index/con-2.4.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>女士紧腰半身裙 沙色 美国尺码</p>
+                                    <p>DEREK LAM 10 CROSBY</p>
+                                    <p><span>￥</span>2,192</p>
+                                </a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="dl1" aos="fade-up-left">
+                            <dt><a href="list.html"><img src="images/index/con-1.1.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>WIREBAG 女士编织手提包 银色</p>
+                                    <p>ANTEPRIMA</p>
+                                    <p><span>￥</span>4,995</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl2" aos="fade-up-right">
+                            <dt><a href="list.html"><img src="images/index/con-1.2.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>by Mary Katrantzou手镯 浅多色</p>
+                                    <p>ATELIER SWAROVSKI</p>
+                                    <p><span>￥</span>4,941</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl3" aos="fade-down-left">
+                            <dt><a href="list.html"><img src="images/index/con-1.3.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>by Mary Katrantzou钥匙圈 浅多色</p>
+                                    <p>ATELIER SWAROVSKI</p>
+                                    <p><span>￥</span>4,990</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl4" aos="fade-down-right">
+                            <dt><a href="list.html"><img src="images/index/con-1.4.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>男士羊毛威尼斯套装 黑色 意大利尺码</p>
+                                    <p>CANALI</p>
+                                    <p><span>￥</span>1,9880</p>
+                                </a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="dl1" aos="fade-up-left">
+                            <dt><a href="list.html"><img src="images/index/con-3.1.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>女士印花尼龙大衣 粉色 国际通用码</p>
+                                    <p>MARY KATRANTZOU</p>
+                                    <p><span>￥</span>3,857</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl2" aos="fade-up-right">
+                            <dt><a href="list.html"><img src="images/index/con-3.2.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>男士牛皮便鞋 酒红色</p>
+                                    <p>TOD'S</p>
+                                    <p><span>￥</span>5,300</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl3" aos="fade-down-left">
+                            <dt><a href="list.html"><img src="images/index/con-3.3.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>Arrivé系列 男士灰褐色牛皮革双肩背包</p>
+                                    <p> 0955013TP（支持刻字）</p>
+                                    <p><span>￥</span>7,690</p>
+                                </a></dd>
+                        </dl>
+
+                        <dl class="dl4" aos="fade-down-right">
+                            <dt><a href="list.html"><img src="images/index/con-3.4.png" alt=""></a></dt>
+                            <dd><a href="list.html">
+                                    <p>女士系带裙 红色 美国尺码</p>
+                                    <p>DEREK LAM 10 CROSBY</p>
+                                    <p><span>￥</span>2,192</p>
+                                </a></dd>
+                        </dl>
+                    </li>
+                </ul>
+                <div id="play">
+                    <span class="on1"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="arrows1">
+                    <div id="btnLeft">&lt;</div>
+                    <div id="btnRight">&gt;</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="con-dynamic">
+            <h3 aos="zoom-in-up">品牌动态</h3>
+            <h5 aos="zoom-in-down">BRAND ACTIVITIES</h5>
+            <div class="banner">
+                <ul class="img">
+                    <li><a href="list.html">
+                            <img src="images/index/img1.jpg">
+                            <div class="mb">
+                                <img src="images/index/pinpai1.1.png" alt="">
+                                <p>旅行者的高品质终身伙伴</p>
+                                <span></span>
+                            </div>
+                        </a></li>
+                    <li><a href="list.html">
+                            <img src="images/index/img2.jpg">
+                            <div class="mb">
+                                <img src="images/index/img1.2.png" alt="">
+                                <p>旅行者的高品质终身伙伴</p>
+                                <span></span>
+                            </div>
+                        </a></li>
+                    <li><a href="list.html">
+                            <img src="images/index/img3.jpg">
+                            <div class="mb">
+                                <img src="images/index/pinpai1.1.png" alt="">
+                                <p>旅行者的高品质终身伙伴</p>
+                                <span></span>
+                            </div>
+                        </a></li>
+                    <li><a href="list.html">
+                            <img src="images/index/img4.jpg">
+                            <div class="mb">
+                                <img src="images/index/img1.2.png" alt="">
+                                <p>旅行者的高品质终身伙伴</p>
+                                <span></span>
+                            </div>
+                        </a></li>
+                    <li><a href="list.html">
+                            <img src="images/index/img5.jpg">
+                            <div class="mb">
+                                <img src="images/index/pinpai1.1.png" alt="">
+                                <p>旅行者的高品质终身伙伴</p>
+                                <span></span>
+                            </div>
+                        </a></li>
+                </ul>
+                <div class="btn">
+                    <span class="prev">
+                        <</span> <span class="next">>
+                    </span>
+                </div>
+
+            </div>
+            <nav class="pinpai">
+                <ul>
+                    <li><a href="list.html"><img src="images/index/pinpai1.png" alt=""></a></li>
+                    <li><a href="list.html"><img src="images/index/pinpai2.png" alt=""></a></li>
+                    <li><a href="list.html"><img src="images/index/pinpai4.png" alt=""></a></li>
+                    <li><a href="list.html"><img src="images/index/pinpai5.png" alt=""></a></li>
+                    <li><a href="list.html"><img src="images/index/pinpai1.png" alt=""></a></li>
+                    <li><a href="list.html"><img src="images/index/pinpai2.png" alt=""></a></li>
+                </ul>
+            </nav>
+
+
+            <h3 aos="zoom-in-up">心上物</h3>
+            <h5 aos="zoom-in-down">BEART TO HEART</h5>
+            <div class="heart">
+                <a href="list.html"><img src="images/index/heart.jpg" alt="" aos="flip-left"></a>
+            </div>
+            <a href="list.html" class="more" aos="zoom-out">更多商品</a>
+        </section>
+
+        <section id="con-tclass">
+            <h3>T课堂</h3>
+            <h5>T CLASS</h5>
+            <dl><a href="">
+                    <dt aos="flip-left"><a href="list.html"><img src="images/index/tClass1.jpg" alt=""></a><span>&lt;</span></dt>
+                    <dd aos="zoom-out-up">
+                        <h4>Tastemaker 生活家</h4>
+                        <h2><a href="">明星们如今最流行穿上身的</a></h2>
+                        <p>—— 吉良先生</p>
+                    </dd>
+                </a></dl>
+            <dl><a href="">
+                    <dt aos="flip-right"><a href="list.html"><img src="images/index/tClass2.jpg" alt=""></a><span>&lt;</span></dt>
+                    <dd aos="zoom-out-up">
+                        <h4>What's Hot 城中热点</h4>
+                        <h2><a href="">慵懒初夏季选个SPA宠自己</a></h2>
+                        <p>—— Noblesse望</p>
+                    </dd>
+                </a></dl>
+            <dl><a href="">
+                    <dt aos="flip-left"><a href="list.html"><img src="images/index/tClass3.jpg" alt=""></a><span>&lt;</span></dt>
+                    <dd aos="zoom-out-up">
+                        <h4>Tastemaker 生活家</h4>
+                        <h2><a href="">我们可以将一座花园穿在身上</a></h2>
+                        <p>—— 李孟苏</p>
+                    </dd>
+                </a></dl>
+            <dl><a href="">
+                    <dt aos="flip-right"><a href="list.html><img src="images/index/tClass4.jpg" alt=""></a><span>&lt;</span></dt>
+                    <dd aos="zoom-out-up">
+                        <h4>Style 风格</h4>
+                        <h2><a href="">预测今年的又一爆款胶囊系列</a></h2>
+                        <p>——</p>
+                    </dd>
+                </a></dl>
+            <a href="" class="more" aos="zoom-out" aos="zoom-in">更多内容</a>
+        </section>
+    </main>
+
+    <footer>
+        <section id="foot-img">
+            <img src="images/index/footer-nav.jpg" alt="" aos="zoom-out-down">
+        </section>
+        <section id="foot-con">
+            <dl>
+                <dt>
+                    <a href=""><img src="images/index/toplife_wb@1x.png" alt="" aos="fade-right"></a>
+                    <a href=""><img src="images/index/toplife_wx@1x.png" alt="" aos="fade-left"></a>
+                </dt>
+                <dd>
+                    <h5 aos="fade-down">欢迎关注TOPLIFE微信、微博公众平台，开启您的品质生活 </h5>
+                    <p aos="fade-up">YOU ARE WARMLY INVITED TO FOLLOW OUR WEIBO & WECHAT, EXPLORING A TOPLIFE</p>
+                </dd>
+            </dl>
+            <div id="wings">
+                <img src="images/index/footer_main_left.png" alt="" class="wings-l">
+                <img src="images/index/footer_main_right.png" alt="" class="wings-r">
+            </div>
+
+            <nav id="fcon-nav">
+                <ul>
+                    <li aos="fade-up">
+                        <h5>使用帮助</h5>
+                        <p><a href="">帮助中心</a></p>
+                    </li>
+                    <li aos="fade-up">
+                        <h5>特色服务</h5>
+                        <p><a href="">京尊达</a></p>
+                        <p><a href="">多样化支付</a></p>
+                        <p><a href="">24小时时尚顾问</a></p>
+                    </li>
+                    <li aos="fade-up">
+                        <h5>关于我们</h5>
+                        <p><a href="">TOPLIFE介绍</a></p>
+                        <p><a href="">联系我们</a></p>
+                        <p><a href="">隐私政策</a></p>
+                        <p><a href="">用户注册协议</a></p>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="foot-f">
+            <ul>
+                <li>
+                    <img src="images/index/icon_icp.png">
+                    <span>京公网安备11030102010414号</span>
+                </li>
+                <li><a href="index.html"><img src="images/index/footer_logo.jpg" alt=""></a></li>
+                <li>
+                    <p>ICP备案号 &nbsp;| &nbsp;Copyright © *** 版权所有 &nbsp;&nbsp;
+                        <a href="">经营证照</a>
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </footer>
+
+
+
+
+    <script src="js/aos.js"></script>
+    <script src="js/jquery3.3.1.min.js"></script>
+    <!--jquery框架-->
+    <script src="js/index.jquery.js"></script>
+    <!--外部链接jq样式-->
+    <script src="js/index.js"></script>
+    <!--js原生-->
+
+    <script src="js/index-dynamic.js"></script>
+    <!--动态品牌js-->
+    <!--aos-->
+    <script>
+        $("h1").on('click', function (e) {
+            $("html,body").animate({
+                scrollTop: $(window).height()
+            }, 1000);
+        });
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>

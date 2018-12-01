@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页——步骤1</title>
+    <!--aos-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registered1.css">
+
+</head>
+
+<body>
+    <!--头部header-->
+    <header>
+        <section id="h_top">
+            <!--头部左边 登录/注册-->
+            <div id="h_login">
+                <img src="images/list/h_login.jpg" alt="">
+                <div class="login">
+                    <a href="login.html">登录</a>
+                    <span>/</span>
+                    <a href="registered1.html">注册</a>
+                </div>
+            </div>
+
+            <!--头部中间logo部分-->
+            <div id="h_logo">
+                <h1>TOPLIFE</h1>
+                <a href="index.html"><img src="images/list/h_logo.jpg" alt=""></a>
+            </div>
+
+            <!--头部右侧搜索/购物车-->
+            <div id="h_search">
+                <a href="#" id="search"><img src="images/list/h_search.jpg"></a>
+                <a href="#" id="h_shop"><img src="images/list/h_shop.jpg"></a>
+            </div>
+
+        </section>
+    </header>
+
+    <!--搜索#search按钮 弹出框-->
+    <article class="panel">
+        <div>
+            <img src="images/list/sear_logo.jpg">
+            <div class="off"><span>X</span></div>
+            <form action="">
+                <input type="text" placeholder="全站搜索" id="search_text">
+                <input type="image" src="images/index/h_search.jpg">
+            </form>
+        </div>
+    </article>
+
+    <!--购物车.h_shop 鼠标悬停后展示的块-->
+    <article class="h_shop">
+        <dl>
+            <dt><img src="images/index/h_shopingcart.png" alt=""></dt>
+            <dd>购物车中还没有商品，赶紧选购吧！</dd>
+        </dl>
+    </article>
+
+    <!--右侧固定————返回顶部-->
+    <article id="fixedTop">
+        <div><a href="#top">&lt;</a></div>
+    </article>
+
+    <!--main-->
+    <main>
+        <form action="registered2.html">
+            <ul id="steps">
+                <li><span>1</span>
+                    <p>验证手机号</p>
+                </li>
+                <li><img src="images/login/arrow.jpg" alt=""></li>
+                <li><span>2</span>
+                    <p>填写账号信息</p>
+                </li>
+                <li><img src="images/login/arrow.jpg" alt=""></li>
+                <li><span>3</span>
+                    <p>注册成功</p>
+                </li>
+            </ul>
+
+            <!--常用手机号-->
+            <div id="tel_input" class="input">
+                <span>中国 0086</span><input type="tel" placeholder="建议使用常用手机号"><em class="no">X</em>
+            </div>
+            <p id="val_tel" class="prompt"><img src="images/login/val1.jpg" alt="">验证完成后，你可以使用手机登录或找回密码</p>
+
+            <!--电话号码验证-->
+            <a id="btn_val" href="avascript:void(0);" class="input">点击按钮进行验证</a>
+            <p id="val_complete"  class="prompt"><img src="images/login/val1.jpg" alt="">验证码已发送24小时内有效</p>
+
+            <!--阅读并同意-->
+            <div class="agree">
+                <input type="checkbox">我已阅读并同意
+                <a href="#">《toplife用户注册协议》</a><a href="">《隐私政策》</a>
+            </div>
+            <!--下一步-->
+            <button id="btn" class="input">下一步</button>
+        </form>
+    </main>
+
+    <footer>
+
+        <section id="foot-f">
+            <ul>
+                <li>
+                    <img src="images/index/icon_icp.png">
+                    <span>京公网安备11030102010414号</span>
+                </li>
+                <li><a href=""><img src="images/index/footer_logo.jpg" alt=""></a></li>
+                <li>
+                    <p>ICP备案号 &nbsp;| &nbsp;Copyright © *** 版权所有 &nbsp;&nbsp;
+                        <a href="">经营证照</a>
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </footer>
+
+    <!--jquery框架-->
+    <script src="js/jquery3.3.1.min.js"></script>
+    <script src="js/index.jquery.js"></script>
+    <!--aos-->
+
+    <script src="js/registered1.js"></script>
+</body>
+
+</html>

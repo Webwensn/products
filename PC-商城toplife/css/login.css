@@ -1,0 +1,187 @@
+body{
+    width: 100%;
+    height:100%;
+    position: relative;
+    overflow-y:hidden;
+}
+/* ::-webkit-scrollbarY{
+    display: none;
+} */
+header,main,footer{
+    width: 100%;
+}
+/* ============header============== */
+header{
+    text-align: center;
+    padding: 60px 0%;
+    background:#FFFFFF;
+}
+header h1{
+    font:40px/1em "微软雅黑";
+    font-weight:lighter;
+}
+header h1 a{
+    color:#C8B588;
+    letter-spacing: 5px;
+}
+/*===============main======================*/
+main{
+    overflow: hidden;
+    padding:0px 15% 50px; 
+    background: #fff;
+}
+main article{
+    width: 50%;
+    height: 330px;
+    float: left;
+}
+main article h3{
+    color:#232321;
+    font:22px/2.5em "微软雅黑";
+}
+main article p{
+    color:#777777;
+    font:12px/1.5em "微软雅黑";
+    margin-bottom:30px;
+}
+main #l_login{
+    border-right:1px solid #E6E6E6;
+    position: relative;
+}
+main #l_login form{
+    width:310px;
+    position: absolute;
+    right: 20%;
+}
+main #l_login form div{
+    position: relative;
+}
+main #l_login form div img{
+    position: absolute;
+    right:8px;
+    top:5px;
+}
+main #l_login form input{
+    display: inline-block;
+    width: 100%;
+    height:35px;
+    padding:0px 8px;
+    margin-bottom:15px;
+}
+main #l_login form a:nth-of-type(1){
+    width: 100%;
+    display: inline-block;
+    height:35px;
+    background:#232321;
+    text-align: center;
+    color:#fff;
+    font:16px/35px "微软雅黑";
+    font-weight: bold;
+    letter-spacing:5px;
+}
+main #l_login form a.forget{
+    font:12px/2em "微软雅黑";
+    position: relative;
+    top:35px;
+    left:255px;
+    color:#A4A4A4;
+}
+main #l_login form a.forget:hover{
+    color:#333;
+}
+main #l_registered{
+    padding-left:10%;
+}
+main #l_registered a{
+    display: inline-block;
+    width:310px;
+    height:45px;
+    border:1px solid #232321;
+    color:#232321;
+    font:14px/45px "微软雅黑";
+    text-align:center;
+    
+    
+}
+main #l_registered a:hover{
+    transition: 0.5s all;
+    background: #E3E3E3;
+}
+
+main section#forget_panel{
+    width: 100%;
+    height:121%;
+    z-index: 9;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    background:rgba(0,0,0,.7);
+    display: none;
+}
+main section#forget_panel dl{
+    width:420px;
+    margin:80px auto;
+    text-align: center;
+}
+main section#forget_panel dl dt img{
+    width:100%;
+}
+main section#forget_panel dl dd{
+    border-radius:50%;
+    width: 40px;
+    height:40px;
+    border:2px solid #929292;
+    font:26px/35px "微软雅黑";
+    color:#929292;
+    margin: 20px auto;
+    cursor: pointer;
+}
+main section#forget_panel dl dd:hover{
+    transform: rotate(360deg);
+    transition: 1s all;
+}
+
+/*===============footer======================*/
+footer{
+    position: fixed;
+    bottom:0;
+}
+/*footer #foot-f最下*/
+footer #foot-f{
+    width: 100%;
+    height: 90px;
+    font:12px/90px "微软雅黑";
+    background:#F5F5F5;
+    padding: 0px 5%;
+}
+footer #foot-f ul{
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+footer #foot-f ul li{
+    float: left;
+    width: 33%;
+    color:#999999;
+    text-align: center;
+}
+footer #foot-f ul li img{
+    position: relative;
+    top:5px;
+}
+footer #foot-f ul li:nth-of-type(1){
+    text-align: left;
+}
+footer #foot-f ul li:nth-of-type(2){
+    position: relative;
+    top:10px;
+}
+footer #foot-f ul li:nth-of-type(3){
+    text-align: right;
+}
+footer #foot-f ul li a{
+    color:#999;
+}
+footer #foot-f ul li a:hover{
+    color:#000;
+}

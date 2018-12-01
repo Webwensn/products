@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页——步骤3</title>
+    <!--aos-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registered3.css">
+
+</head>
+
+<body>
+    <!--头部header-->
+    <header>
+        <section id="h_top">
+            <!--头部左边 登录/注册-->
+            <div id="h_login">
+                <img src="images/list/h_login.jpg" alt="">
+                <div class="login">
+                    <a href="login.html">登录</a>
+                    <span>/</span>
+                    <a href="registered1.html">注册</a>
+                </div>
+            </div>
+
+            <!--头部中间logo部分-->
+            <div id="h_logo">
+                <h1>TOPLIFE</h1>
+                <a href="index.html"><img src="images/list/h_logo.jpg" alt=""></a>
+            </div>
+
+            <!--头部右侧搜索/购物车-->
+            <div id="h_search">
+                <a href="#" id="search"><img src="images/list/h_search.jpg"></a>
+                <a href="#" id="h_shop"><img src="images/list/h_shop.jpg"></a>
+            </div>
+
+        </section>
+    </header>
+
+    <!--搜索#search按钮 弹出框-->
+    <article class="panel">
+        <div>
+            <img src="images/list/sear_logo.jpg">
+            <div class="off"><span>X</span></div>
+            <form action="">
+                <input type="text" placeholder="全站搜索" id="search_text">
+                <input type="image" src="images/index/h_search.jpg">
+            </form>
+        </div>
+    </article>
+
+    <!--购物车.h_shop 鼠标悬停后展示的块-->
+    <article class="h_shop">
+        <dl>
+            <dt><img src="images/index/h_shopingcart.png" alt=""></dt>
+            <dd>购物车中还没有商品，赶紧选购吧！</dd>
+        </dl>
+    </article>
+
+    <!--右侧固定————返回顶部-->
+    <article id="fixedTop">
+        <div><a href="#top">&lt;</a></div>
+    </article>
+
+    <!--main-->
+    <main>
+        <form action="login.html">
+            <ul id="steps">
+                <li><span>1</span>
+                    <p>验证手机号</p>
+                </li>
+                <li><img src="images/login/arrow.jpg" alt=""></li>
+                <li><span>2</span>
+                    <p>填写账号信息</p>
+                </li>
+                <li><img src="images/login/arrow.jpg" alt=""></li>
+                <li><span>3</span>
+                    <p>注册成功</p>
+                </li>
+            </ul>
+            <div>您以注册成功，请点击登录。</div>
+            
+            <!--下一步-->
+            <button id="btn" class="input">点击登录</button>
+        </form>
+    </main>
+
+    <footer>
+
+        <section id="foot-f">
+            <ul>
+                <li>
+                    <img src="images/index/icon_icp.png">
+                    <span>京公网安备11030102010414号</span>
+                </li>
+                <li><a href=""><img src="images/index/footer_logo.jpg" alt=""></a></li>
+                <li>
+                    <p>ICP备案号 &nbsp;| &nbsp;Copyright © *** 版权所有 &nbsp;&nbsp;
+                        <a href="">经营证照</a>
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </footer>
+
+    <!--jquery框架-->
+    <script src="js/jquery3.3.1.min.js"></script>
+    <script src="js/index.jquery.js"></script>
+    <!--aos-->
+
+    <!-- <script src="js/registered1.js"></script> -->
+</body>
+
+</html>
