@@ -1,0 +1,710 @@
+body{
+    position: relative;
+}
+/*==========================header===========================*/
+header{
+    height:40px;
+    width: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 0px 2%;
+    position: fixed;
+    top:0px;
+    background: #FFFFFF;
+}
+header nav ul li{
+    float: left;
+    height:40px;
+    line-height: 40px;
+    margin-right: 13px;
+}
+header nav ul li img{
+    height:70%;
+    margin-top: 3px;
+}
+header nav ul li:nth-child(2){
+    position: relative;
+}
+header nav ul li:nth-child(2) input{
+    border:none;
+    border-radius:15px;
+    background: #F5F5F5;
+    width: 150px;
+    padding: 5px 0px 5px 40px;
+    position: relative;
+    top:-2px;
+    color:#CCCCCC;
+}
+header nav ul li:nth-child(2) img{
+    position: absolute;
+    top:5px;
+    left: 10px;
+    height: 50%;
+}
+header nav ul li:nth-child(3) img{
+    height: 60%;
+    margin-top: 8px;
+}
+header nav ul li:nth-child(4){
+    margin: 0;
+}
+ header nav ul li:nth-child(4) img{
+     height: 70%;
+ }
+/*==========================main===========================*/
+main{
+    width: 100%;
+    height: 483px;
+    overflow: hidden;
+    position: fixed;
+    top:40px;
+}
+main #main{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+main #art1 section.art1_top{
+    width: 100%;
+    overflow: hidden;
+}
+main #art1 section.art1_top ul{
+    width: 515%;
+    overflow: hidden;
+}
+main #art1 section.art1_top ul li{
+    float: left;
+    width:320px;
+    animation:8s lunbo infinite;
+}
+@keyframes lunbo {
+    0%{
+        transform:translateX(0) ;
+    }
+    25%{
+        transform:translateX(-100%) ;
+    }
+    50%{
+        transform:translateX(-200%) ;
+    }
+    75%{
+        transform:translateX(-300%) ;
+    }
+    100%{
+        transform:translateX(-400%) ;
+    }
+}
+main #art1 section.art1_top ul li img{
+    width:100%;
+}
+/*main #art2*/
+main #art2{
+    padding: 0 2%;
+}
+main .reset_h{
+    margin: 20px 0px;
+    font-size: 1.25rem;
+}
+main .reset_h span{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FEAB8B;
+}
+main #art2 section::-webkit-scrollbar{
+    display: none;
+}
+main #art3 section::-webkit-scrollbar{
+    display: none;
+}
+main #art4 section::-webkit-scrollbar{
+    display: none;
+}
+main #art2 section{
+    width: 100%;
+    overflow:auto;
+}
+main #art2 section ul{
+    width:944%;
+    height: 100%;
+    overflow:auto ;
+}
+main #art2 section ul li{
+    background: #F6F6F6;
+    width:280px;
+    height:100%;
+    float: left;
+    margin-right: 10px;
+}
+main #art2 section ul li dl{
+    width: 100%;
+    height:100%;
+}
+main #art2 section ul li dl dt{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+main #art2 section ul li dl dt img{
+    width: 100%;
+    height: 100%;
+}
+main #art2 section ul li dl dd{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color:#4C4C4C;
+    padding: 15px 0px;
+}
+main #art2 section ul li dl dd h3{
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    line-height: 3em;
+}
+main #art2 section ul li dl dd h3 span{
+    border-bottom: 2px solid #CFB983;
+    padding-bottom: 3px;
+}
+main #art2 section ul li dl dd p{
+    font:0.8rem/1.5em "微软雅黑";
+}
+/*main #art3,main #art4*/
+main #art3,main #art4{
+    padding: 0px 2%;
+}
+main section.reset_sec{
+    width: 100%;
+    overflow:auto;
+}
+main  section.reset_sec ul{
+    width:280%;
+    height: 100%;
+    overflow:auto ;
+}
+main  section.reset_sec ul li{
+    float: left;
+    width: 130px;
+    margin-right: 10px;
+}
+main  section.reset_sec ul li img{
+    width: 100%;
+}
+main  section.reset_sec ul li:last-child{
+    width: 18px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-right: 0;
+}
+main  section.reset_sec ul li:last-child a{
+    color:#7A7A7A;
+}
+main  section.reset_sec ul li:last-child img{
+    width:100%;
+    margin: 8px 0px 3px;
+}
+/*main #art5*/
+main #art5{
+    padding: 0 2%;
+}
+main #art5 section{
+    width: 100%;
+}
+main #art5 section dl{
+    width: 100%;
+    margin-bottom: 30px;
+}
+main #art5 section dl dt img{
+    width: 100%;
+}
+main #art5 section dl dd h5{
+    font: 1rem/2.5em "微软雅黑";
+    color:#5C5C5C;
+}
+main #art5 section dl dd p{
+    font:0.7rem/1.5em "微软雅黑";
+    color:#848484;
+}
+/*main #art6*/
+main #art6{
+    width: 100%;
+    padding: 0 2%;
+}
+main #art6 section{
+    width: 100%;
+}
+main #art6 section dl{
+    width: 100%;
+    margin-bottom:30px;
+}
+main #art6 section dl dt img{
+    width: 100%;
+}
+main #art6 section dl dd{
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+main #art6 section dl dd p{
+    font:0.8rem/1.5em "微软雅黑";
+    color:#262626;
+}
+/*main #art7*/
+main #art7{
+    margin-top: -15px;
+}
+main #art7 h2{
+    border-top:7px solid #F5F5F5;
+    padding:5px 2%;
+}
+main #art7 section{
+    padding: 0 2%;
+    width: 100%;
+}
+main #art7 section dl{
+    width: 100%;
+    overflow: hidden;
+}
+main #art7 section dl dt{
+    width: 50%;
+    float: left;
+}
+main #art7 section dl dt img{
+    width: 100%;
+}
+main #art7 section dl dd{
+    float: right;
+    width: 50%;
+    padding: 5px 0px 5px 10px;
+}
+main #art7 section dl dd h3{
+    font:1.03rem/1.8em "微软雅黑";
+    color:#545454;
+}
+main #art7 section dl dd p{
+    font:0.8rem/1.2em "微软雅黑";
+    color:#A1A1A1;
+}
+main #art7 section dl dd span{
+    font:0.7rem/2.5em "微软雅黑";
+    color:#CDCDCD;
+}
+main #art7 section>p{
+    height: 35px;
+    font:0.8rem/35px "微软雅黑";
+    border-top:1px solid #E8E8E8;
+    position: relative;
+}
+main #art7 section>p a{
+    color:#7D7D7D;
+}
+main #art7 section>p img{
+    position: absolute;
+    right:0px;
+    top:8px;
+    height: 35%;
+}
+main #art8{
+    width: 100%;
+    height: 50px;
+    padding: 15px 0px;
+    text-align: center;
+}
+main #art8 img{
+    height: 100%;
+}
+/*==========================footer===========================*/
+footer{
+    width: 100%;
+    height: 45px;
+    border-top:3px solid #F7F7F7;
+    position: fixed;
+    bottom:2px;
+}
+footer nav ul li{
+    float: left;
+    width: 25%;
+    font: 1rem/45px "微软雅黑";
+    text-align: center;
+}
+footer nav ul li a{
+    color:#A2A2A2;
+}
+footer nav ul li a{
+    color:#A2A2A2;
+}
+footer nav ul li:nth-child(1) a{
+    border-bottom: 2px solid #000;
+    color:#000000;
+}
+
+/*媒体查询*/
+/*iphone6/7/8 w375 h667*/
+@media (min-width: 375px){
+    header{
+        height: 50px;
+    }
+    header nav ul li{
+        height: 50px;
+    }
+    header nav ul li:nth-child(2) input{
+        width: 170px;
+        padding: 8px 0px 8px 50px;
+        top:3px;
+    }
+    header nav ul li:nth-child(2) img{
+        top:9px;
+        height: 45%;
+    }
+    main{
+        height:567px;
+        position: fixed;
+        top:50px;
+    }
+    main #art1 section.art1_top ul{
+        width: 520%;
+    }
+    main #art1 section.art1_top ul li{
+        width:375px;
+    }
+    @keyframes lunbo {
+        0%{
+            transform:translateX(0) ;
+        }
+        25%{
+            transform:translateX(-100%) ;
+        }
+        50%{
+            transform:translateX(-200%) ;
+        }
+        75%{
+            transform:translateX(-300%) ;
+        }
+        100%{
+            transform:translateX(-400%) ;
+        }
+    }
+    main .reset_h{
+        margin: 25px 0px;
+        font-size: 1.4rem;
+    }
+    main .reset_h span{
+        padding-bottom: 8px;
+        border-bottom: 2px solid #FEAB8B;
+    }
+    main #art2 section ul{
+        width:863%;
+    }
+    main #art2 section ul li{
+        width:300px;
+    }
+    main #art2 section ul li dl dd{
+        padding: 15px 0px;
+    }
+    main #art2 section ul li dl dd h3{
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        line-height: 3em;
+    }
+    main #art2 section ul li dl dd p{
+        font:0.9rem/1.5em "微软雅黑";
+    }
+    main  section.reset_sec ul{
+        width:275%;
+    }
+    main  section.reset_sec ul li{
+        width: 150px;
+    }
+    main  section.reset_sec ul li:last-child{
+        width: 20px;
+        font-size: 0.95rem;
+    }
+    main  section.reset_sec ul li:last-child img{
+        width:100%;
+        margin: 10px 0px 3px;
+    }
+    main #art5 section dl dd h5{
+        font: 1.15rem/2.5em "微软雅黑";
+    }
+    main #art5 section dl dd p{
+        font:0.9rem/1.5em "微软雅黑";
+    }
+    main #art6 section dl dd p{
+        font:0.9rem/1.5em "微软雅黑";
+        color:#262626;
+    }
+    main #art7 section dl dd h3{
+        font:1.15rem/2em "微软雅黑";
+    }
+    main #art7 section dl dd p{
+        font:0.9rem/1.2em "微软雅黑";
+        color:#A1A1A1;
+    }
+    main #art7 section dl dd span{
+        font:0.85rem/2.5em "微软雅黑";
+    }
+    main #art7 section>p{
+        height: 40px;
+        font:0.9rem/40px "微软雅黑";
+    }
+    main #art7 section>p img{
+        top:8px;
+        height: 40%;
+    }
+    footer{
+        height: 50px;
+    }
+    footer nav ul li{
+        font: 1.1rem/50px "微软雅黑";
+    }
+}
+/*iphone6/7/8Plus w414 h736*/
+@media (min-width:414px){
+    header{
+        height: 50px;
+    }
+    header nav ul li{
+        height: 50px;
+    }
+    header nav ul li{
+        margin-right: 20px;
+    }
+    header nav ul li:nth-child(2) input{
+        width: 190px;
+        padding: 8px 0px 8px 50px;
+        top:3px;
+        font-size: 1.05rem;
+        border-radius: 20px;
+    }
+    header nav ul li:nth-child(2) img{
+        top:9px;
+        height: 45%;
+    }
+    main{
+        height:631px;
+        position: fixed;
+        top: 50px;
+    }
+    main #art1 section.art1_top ul{
+        width: 528%;
+    }
+    main #art1 section.art1_top ul li{
+        width:414px;
+    }
+    @keyframes lunbo {
+        0%{
+            transform:translateX(0) ;
+        }
+        25%{
+            transform:translateX(-100%) ;
+        }
+        50%{
+            transform:translateX(-200%) ;
+        }
+        75%{
+            transform:translateX(-300%) ;
+        }
+        100%{
+            transform:translateX(-400%) ;
+        }
+    }
+    main .reset_h{
+        margin: 30px 0px;
+        font-size: 1.5rem;
+    }
+    main .reset_h span{
+        padding-bottom: 8px;
+        border-bottom: 2px solid #FEAB8B;
+    }
+    main #art2 section ul{
+        width:831%;
+    }
+    main #art2 section ul li{
+        width:320px;
+    }
+    main #art2 section ul li dl dd{
+        padding: 15px 0px;
+    }
+    main #art2 section ul li dl dd h3{
+        letter-spacing: 2px;
+        font-size: 1.35rem;
+        line-height: 3em;
+    }
+    main #art2 section ul li dl dd p{
+        font:1rem/1.5em "微软雅黑";
+    }
+    main  section.reset_sec ul{
+        width:265%;
+    }
+    main  section.reset_sec ul li{
+        width: 160px;
+    }
+    main  section.reset_sec ul li:last-child{
+        width: 24px;
+        font-size: 1rem;
+    }
+    main  section.reset_sec ul li:last-child img{
+        margin: 10px 0px 5px;
+    }
+    main #art5 section dl dd h5{
+        font: 1.25rem/2.5em "微软雅黑";
+    }
+    main #art5 section dl dd p{
+        font:0.98rem/1.5em "微软雅黑";
+    }
+    main #art6 section dl dd p{
+        font:1rem/1.5em "微软雅黑";
+        color:#262626;
+    }
+    main #art7 section dl dd h3{
+        font:1.2rem/2em "微软雅黑";
+    }
+    main #art7 section dl dd p{
+        font:1rem/1.2em "微软雅黑";
+        color:#A1A1A1;
+    }
+    main #art7 section dl dd span{
+        font:0.9rem/2.5em "微软雅黑";
+    }
+    main #art7 section>p{
+        height: 45px;
+        font:1rem/45px "微软雅黑";
+    }
+    main #art7 section>p img{
+        top:8px;
+        height: 40%;
+    }
+    main #art8{
+        padding: 12px 0px;
+    }
+    footer{
+        height: 55px;
+    }
+    footer nav ul li{
+        font: 1.2rem/55px "微软雅黑";
+    }
+}
+/*iphoneX w375 h812*/
+@media (min-height:812px){
+    header{
+        height:60px;
+    }
+    header nav ul li{
+        height: 60px;
+    }
+    header nav ul li img{
+        height:55%;
+    }
+    header nav ul li:nth-child(1){
+        margin-top: 7px;
+    }
+    header nav ul li:nth-child(2) input{
+        width: 170px;
+        padding: 8px 0px 8px 50px;
+        top:3px;
+        font-size: 1.1rem;
+        border-radius: 25px;
+        margin-top:5px;
+    }
+    header nav ul li:nth-child(2) img{
+        top:9px;
+        height: 45%;
+    }
+    main{
+        height: 697px;
+        position: fixed;
+        top:60px;
+    }
+    main #art1 section.art1_top ul{
+        width: 528%;
+    }
+    main #art1 section.art1_top ul li{
+        width:375px;
+    }
+    @keyframes lunbo {
+        0%{
+            transform:translateX(0) ;
+        }
+        25%{
+            transform:translateX(-100%) ;
+        }
+        50%{
+            transform:translateX(-200%) ;
+        }
+        75%{
+            transform:translateX(-300%) ;
+        }
+        100%{
+            transform:translateX(-400%) ;
+        }
+    }
+    main .reset_h{
+        margin: 30px 0px;
+        font-size: 1.6rem;
+    }
+    main .reset_h span{
+        padding-bottom: 8px;
+        border-bottom: 2px solid #FEAB8B;
+    }
+    main #art2 section ul{
+        width:918%;
+    }
+    main #art2 section ul li{
+        width:320px;
+    }
+    main #art2 section ul li dl dd{
+        padding: 15px 0px;
+    }
+    main #art2 section ul li dl dd h3{
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+        line-height: 3em;
+    }
+    main #art2 section ul li dl dd p{
+        font:1.1rem/1.5em "微软雅黑";
+    }
+    main  section.reset_sec ul li:last-child{
+        width: 26px;
+        font-size: 1.05rem;
+    }
+    main  section.reset_sec ul li:last-child img{
+        margin: 5px 0px 3px;
+    }
+    main #art5 section dl dd h5{
+        font: 1.3rem/2.5em "微软雅黑";
+    }
+    main #art5 section dl dd p{
+        font:1rem/1.5em "微软雅黑";
+    }
+    main #art6 section dl dd p{
+        font:1.05rem/1.5em "微软雅黑";
+        color:#262626;
+    }
+    main #art7 h2{
+        margin-top: 15px;
+    }
+    main #art7 section dl dd h3{
+        font:1.2rem/2em "微软雅黑";
+    }
+    main #art7 section dl dd p{
+        font:1rem/1.2em "微软雅黑";
+        color:#A1A1A1;
+    }
+    main #art7 section dl dd span{
+        font:1rem/2.5em "微软雅黑";
+    }
+    main #art7 section>p{
+        height: 45px;
+        font:1.05rem/45px "微软雅黑";
+    }
+    main #art7 section>p img{
+        top:8px;
+        height: 40%;
+    }
+    main #art8{
+        padding: 10px 0px;
+    }
+    footer{
+        height: 55px;
+    }
+    footer nav ul li{
+        font: 1.2rem/55px "微软雅黑";
+    }
+}

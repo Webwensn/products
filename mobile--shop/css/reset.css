@@ -1,0 +1,32 @@
+/*全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+.over_f{
+    overflow: hidden;
+}
+.float_l{
+    float: left;
+}
+.float_r{
+    float:right;
+}
+.w_100{
+    width: 100%;
+}
+.p10X{
+    padding:0px 10%;
+}
+.fl li{
+    float: left;
+}

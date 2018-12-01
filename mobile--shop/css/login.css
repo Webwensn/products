@@ -1,0 +1,181 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/login/bg3.jpg") no-repeat top center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+main form{
+    width:80%;
+    position:relative;
+    top:210px;
+    margin: 0px auto;
+}
+main form input{
+    width:100%;
+    height: 35px;
+    border:none;
+    color:#D2D2D2;
+    padding: 0px 0px 0px 10px;
+}
+main form input:nth-child(1){
+    border-bottom: 1px solid #F4F4F4;
+}
+main form a{
+    position: absolute;
+    right:0px;
+    background: #333333;
+    color:#EEEEEE;
+    font-size: 0.7rem;
+    padding:5px 10px ;
+    margin-top: 8px;
+}
+main div.sub{
+    text-align: center;
+    position: relative;
+    top:247px;
+}
+main div.sub a{
+    color:#E6E6E6;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+main div.other{
+    text-align: center;
+    color: #e8e7e6;
+    font-size: 0.8rem;
+    margin-top: 330px;
+}
+main div.other p:after{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height:1px;
+    background: #DEDDDB;
+    position: relative;
+    left: 20px;
+    top:-5px;
+}
+main div.other p:before{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height:1px;
+    background: #DEDDDB;
+    position: relative;
+    left: -20px;
+    top:-5px;
+}
+main div.other img{
+    width: 40px;
+    margin-top: 20px;
+}
+
+@media (min-width:375px) {
+    main form{
+        width:80%;
+        top:250px;
+    }
+    main form input{
+        width:100%;
+        height: 40px;
+        padding: 0px 10px;
+    }
+    main form a{
+        margin-top: 10px;
+        font-size: 0.9rem;
+        padding:5px 10px ;
+    }
+    main div.sub{
+        position: relative;
+        top:295px;
+    }
+    main div.sub a{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    main div.other{
+        text-align: center;
+        color: #e8e7e6;
+        font-size: 0.9rem;
+        margin-top: 390px;
+    }
+    main div.other img{
+        width: 50px;
+        margin-top: 20px;
+    }
+}
+@media (min-width:414px) {
+    main form{
+        width:80%;
+        top:280px;
+    }
+    main form input{
+        width:100%;
+        height: 45px;
+        padding: 0px 10px;
+        font-size: 1rem;
+    }
+    main form a{
+        margin-top: 10px;
+        font-size:1rem;
+        padding:5px 10px ;
+    }
+    main div.sub{
+        position: relative;
+        top:325px;
+    }
+    main div.sub a{
+        font-size: 1.1rem;
+        letter-spacing: 5px;
+    }
+    main div.other{
+        text-align: center;
+        color: #e8e7e6;
+        font-size: 0.95rem;
+        margin-top:420px;
+    }
+    main div.other img{
+        width: 50px;
+        margin-top: 20px;
+    }
+}
+@media (min-height:812px) {
+    main form{
+        width:80%;
+        top:300px;
+    }
+    main form input{
+        width:100%;
+        height: 60px;
+        padding: 0px 10px;
+        font-size: 1.05rem;
+    }
+    main form a{
+        margin-top: 13px;
+        font-size:1.05rem;
+        padding:5px 10px ;
+    }
+    main div.sub{
+        position: relative;
+        top:340px;
+    }
+    main div.sub a{
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+    }
+    main div.other{
+        text-align: center;
+        color: #e8e7e6;
+        font-size: 1rem;
+        margin-top: 430px;
+    }
+    main div.other img{
+        width: 55px;
+        margin-top: 20px;
+    }
+}
